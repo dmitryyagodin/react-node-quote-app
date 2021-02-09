@@ -2,7 +2,7 @@
 
 This web app displays random quotes by famous people and sends them to Twitter.
 
-See it on [Tweet-a-quote](https://tweet-a-quote.herokuapp.com/)
+See it deployed to **Heroku as [Tweet-a-quote](https://tweet-a-quote.herokuapp.com/)**
 
 <p align="center">
 <img src="https://github.com/dmitryyagodin/random-quote-machine/blob/main/src/localhost_3000_(iPhone%206_7_8).png" alt="App screenshot" width=600>
