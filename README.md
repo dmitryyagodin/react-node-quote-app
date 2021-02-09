@@ -15,8 +15,11 @@ The following tools were used:
 - Heroku for deployment (see details below)
 
 
-# The fullstack implementation of this app is based on a tutorial called [How to Create a React App with a Node Backend: The Complete Guide](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/)
-## Step 1. Create a Node (Express) backend
+The fullstack implementation of this app is based on Reed Barger's tutorial called [How to Create a React App with a Node Backend: The Complete Guide](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/)
+
+These are the steps from the tutorial that describe the general approach:
+
+### Step 1. Create a Node (Express) backend
 1. Create a project folder
 2. Create a Node project inside the folder: `npm init -y`
 3. Create `server` folder and `index.js` in it.
@@ -41,7 +44,7 @@ app.listen(PORT, () => {
   "start": "node server/index.js"
 },
 ```
-## Step 2. Create an API Endpoint
+### Step 2. Create an API Endpoint
 
 Add an endpoint for the route `/api`
 ```javascript
@@ -51,7 +54,7 @@ app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" });
 });
 ```
-## Step 3. Create React front-end
+### Step 3. Create React front-end
 
 1. Use `npx create-react-app client` to create a new React project
 2. Add a `proxy` property to package.json
@@ -59,7 +62,7 @@ app.get("/api", (req, res) => {
 // client/package.json
 "proxy": "http://localhost:3001",
 ```
-## Step 4. Make HTTP Requests from React to Node
+### Step 4. Make HTTP Requests from React to Node
 
 1. Use `React.useEffect` to make an HTTP request
 2. Use `React.useState` to put the response data in a state variable `data`
@@ -93,7 +96,7 @@ function App() {
 export default App;
 ```
 
-## Step 5. Deploy your app to the web with Heroku
+### Step 5. Deploy your app to the web with Heroku
 
 1. Delete git from the client folder (app git will be enough) 
 ```
