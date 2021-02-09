@@ -1,4 +1,21 @@
-This app is based on a tutorial called [How to Create a React App with a Node Backend: The Complete Guide](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/)
+# Random Quote Machine
+
+This web app displays random quotes by famous people and sends them to Twitter.
+
+See it on [Tweet-a-quote](https://tweet-a-quote.herokuapp.com/)
+
+<p align="center">
+<img src="https://github.com/dmitryyagodin/random-quote-machine/blob/main/src/localhost_3000_(iPhone%206_7_8).png" alt="App screenshot" width=600>
+</p>
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The following tools were used:
+- React and react-bootstrap for client side
+- Node.js and Express for server side
+- Heroku for deployment (see details below)
+
+
+# The fullstack implementation of this app is based on a tutorial called [How to Create a React App with a Node Backend: The Complete Guide](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/)
 ## Step 1. Create a Node (Express) backend
 1. Create a project folder
 2. Create a Node project inside the folder: `npm init -y`
