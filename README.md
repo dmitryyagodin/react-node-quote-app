@@ -1,4 +1,4 @@
-# Random Quote Machine
+# Random Quote Machine (Try it on [Heroku](https://tweet-a-quote.herokuapp.com/))
 
 This web app displays random quotes by famous people and sends them to Twitter.
 
