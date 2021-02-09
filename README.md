@@ -123,8 +123,28 @@ app.get('*', (req, res) => {
 
 ```javascript
 // server/package.json
-
 "engines": {
   "node": "12.19.0" // check it with node -v
 }
 ```
+
+5. If needed, install heroku CLI and login to heroku
+```
+npm i -g heroku
+heroku login
+```
+6. Initialize a new git repo and commit them to heroku
+```
+git init
+heroku git:remote -a insert-your-app-name-here
+git add .
+git commit -am "Deploy app to Heroku"
+git push heroku master
+```
+
+7. Update your app on heroku after any change 
+```
+git add .
+git commit -m "my commit message"
+git push heroku master
+``` 

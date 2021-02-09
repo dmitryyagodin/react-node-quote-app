@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import QuoteBox from './QuoteBox';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -14,16 +16,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{!data ? "Lodading..." : data}</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>{!data ? "Loading..." : data}</p>
+        <QuoteBox />
       </header>
     </div>
   );

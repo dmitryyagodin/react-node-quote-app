@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+#quote-box {
+  width: 80%;
+  max-width: 400px;
+}
+
+#text {
+  font-style: italic;
+}
+
+#author {
+  max-width: 400px;
+  text-align: right;
+  font-size: 0.7em;
+}
+
+#tweet-quote {
+  margin-left: 10px;
+  float: left;
+}
+
+#new-quote {
+  float: right;
+}
